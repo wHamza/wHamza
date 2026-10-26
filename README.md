@@ -28,6 +28,7 @@
       <img alt="" src="https://img.shields.io/badge/Churn%20Prediction-22C55E?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Ensemble-8B5CF6?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Imbalanced%20Data-EF4444?style=flat-square">
     </td>
   </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/wHamza/readbuddy-rag">ReadBuddy RAG</a></h3>
       Spoiler-safe reading companion: hybrid retrieval over a book that only uses what you have already read.<br><br>
