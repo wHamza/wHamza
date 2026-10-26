@@ -1,35 +1,72 @@
-# Hamza Demir
+<p align="center">
+  <img src="assets/banner.svg" alt="Hamza Demir - AI / ML Engineer" width="100%">
+</p>
 
-**AI/ML engineer building practical, intelligent systems.**
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+  <img alt="PyTorch Geometric" src="https://img.shields.io/badge/PyG-3C2179?style=for-the-badge">
+  <img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">
+  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white">
+  <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
+</p>
 
-I work across graph machine learning, retrieval systems, computer vision, and robotics. I enjoy turning experiments into focused tools that solve real problems.
+<p align="center">
+  I turn experiments into small, focused tools: graph neural networks, retrieval systems and computer vision.<br>
+  Open to internships, junior ML roles and collaborations.
+</p>
 
-[Projects](https://github.com/wHamza?tab=repositories) · [GitHub](https://github.com/wHamza)
+<img src="assets/divider.svg" width="100%" height="6" alt="">
 
----
+## Selected work
 
-### Selected work
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/wHamza/readbuddy-rag">ReadBuddy RAG</a></h3>
+      Spoiler-safe reading companion: hybrid retrieval over a book that only uses what you have already read.<br><br>
+      <img alt="" src="https://img.shields.io/badge/RAG-8B5CF6?style=flat-square"> <img alt="" src="https://img.shields.io/badge/ChromaDB-F97316?style=flat-square"> <img alt="" src="https://img.shields.io/badge/NLP-0EA5E9?style=flat-square">
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/wHamza/routeOptimGNN">Route Optim GNN</a></h3>
+      Vehicle routing with graph attention and reinforcement learning, with benchmark scripts and route plots.<br><br>
+      <img alt="" src="https://img.shields.io/badge/GNN-8B5CF6?style=flat-square"> <img alt="" src="https://img.shields.io/badge/RL-EC4899?style=flat-square"> <img alt="" src="https://img.shields.io/badge/PyTorch%20Geometric-3C2179?style=flat-square">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/wHamza/gnn-steam-2021-turkish">Steam Game Recommender</a></h3>
+      Heterogeneous GNN on Turkish Steam reviews; users and games are nodes, recommendation is link prediction.<br><br>
+      <img alt="" src="https://img.shields.io/badge/RecSys-22C55E?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Hetero%20GNN-8B5CF6?style=flat-square">
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/wHamza/line-recog">Underwater Route Recognition</a></h3>
+      YOLO-based line detection with vehicle-control experiments over PyMAVLink.<br><br>
+      <img alt="" src="https://img.shields.io/badge/YOLO-F59E0B?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Robotics-0EA5E9?style=flat-square">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/wHamza/Voice-control-with-hand">Hand-Controlled Volume</a></h3>
+      Touch-free Windows volume control with MediaPipe hand landmarks.<br><br>
+      <img alt="" src="https://img.shields.io/badge/MediaPipe-14B8A6?style=flat-square"> <img alt="" src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square">
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/wHamza/TensorTonic-Solutions">TensorTonic Solutions</a></h3>
+      ML fundamentals implemented from scratch with NumPy: losses, activations, closed-form regression.<br><br>
+      <img alt="" src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"> <img alt="" src="https://img.shields.io/badge/Fundamentals-EF4444?style=flat-square">
+    </td>
+  </tr>
+</table>
 
-**[ReadBuddy RAG](https://github.com/wHamza/readbuddy-rag)**  
-A spoiler-safe reading companion powered by hybrid retrieval.
+<img src="assets/divider.svg" width="100%" height="6" alt="">
 
-**[Route Optim GNN](https://github.com/wHamza/routeOptimGNN)**  
-Graph-learning experiments for routing and optimization problems.
+## Currently exploring
 
-**[Steam Game Recommender](https://github.com/wHamza/gnn-steam-2021-turkish)**  
-A graph-based recommendation system built around relationships between games and players.
+- Neural-network-based video compression and evaluator-aware representations
+- Post-training of open language models
+- Graph neural networks for recommendation and routing
 
-**[Hand-Controlled Volume](https://github.com/wHamza/Voice-control-with-hand)**  
-A touch-free computer interface using hand landmarks and computer vision.
-
----
-
-### Toolkit
-
-`Python` · `C++` · `PyTorch` · `PyTorch Geometric` · `OpenCV` · `scikit-learn`
-
-### Exploring
-
-Lightweight graph neural networks, context-aware retrieval, and interfaces connecting software with the physical world.
-
-<sub>Open to thoughtful collaborations and interesting technical problems.</sub>
+<p align="center">
+  <a href="https://github.com/wHamza?tab=repositories"><img alt="All repositories" src="https://img.shields.io/badge/All%20repositories-111827?style=for-the-badge&logo=github&logoColor=white"></a>
+</p>
