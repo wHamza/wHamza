@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner-emerald.svg" alt="Hamza Demir - AI / ML Engineer" width="100%">
+  <img src="assets/banner-neon.svg" alt="Hamza Demir - AI / ML Engineer" width="100%">
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
   Open to internships, junior ML roles and collaborations.
 </p>
 
-<img src="assets/divider-emerald.svg" width="100%" height="6" alt="">
+<img src="assets/divider-neon.svg" width="100%" height="6" alt="">
 
 ## Selected work
 
@@ -59,7 +59,7 @@
   </tr>
 </table>
 
-<img src="assets/divider-emerald.svg" width="100%" height="6" alt="">
+<img src="assets/divider-neon.svg" width="100%" height="6" alt="">
 
 ## Currently exploring
 
