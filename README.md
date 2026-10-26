@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Hamza Demir - AI / ML Engineer" width="100%">
+  <img src="assets/banner-emerald.svg" alt="Hamza Demir - AI / ML Engineer" width="100%">
 </p>
 
 <p align="center">
@@ -12,11 +12,11 @@
 </p>
 
 <p align="center">
-  I turn experiments into small, focused tools: graph neural networks, retrieval systems and computer vision.<br>
+  I turn machine learning experiments into small, focused tools: deep learning, computer vision, retrieval and recommender systems.<br>
   Open to internships, junior ML roles and collaborations.
 </p>
 
-<img src="assets/divider.svg" width="100%" height="6" alt="">
+<img src="assets/divider-emerald.svg" width="100%" height="6" alt="">
 
 ## Selected work
 
@@ -59,7 +59,7 @@
   </tr>
 </table>
 
-<img src="assets/divider.svg" width="100%" height="6" alt="">
+<img src="assets/divider-emerald.svg" width="100%" height="6" alt="">
 
 ## Currently exploring
 
