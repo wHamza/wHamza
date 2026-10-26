@@ -22,6 +22,12 @@
 
 <table>
   <tr>
+    <td colspan="2" valign="top">
+      <h3><a href="https://github.com/wHamza/ing-hubs-datathon">ING Hubs Türkiye Datathon</a> &nbsp;<img alt="21st in Türkiye" src="https://img.shields.io/badge/21st%20in%20T%C3%BCrkiye-FACC15?style=flat-square&labelColor=111827"></h3>
+      Customer churn prediction on a heavily imbalanced dataset (about 95% / 5%). Individual entry, ensemble model, October 2025.<br><br>
+      <img alt="" src="https://img.shields.io/badge/Churn%20Prediction-22C55E?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Ensemble-8B5CF6?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Imbalanced%20Data-EF4444?style=flat-square">
+    </td>
+  </tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/wHamza/readbuddy-rag">ReadBuddy RAG</a></h3>
       Spoiler-safe reading companion: hybrid retrieval over a book that only uses what you have already read.<br><br>
