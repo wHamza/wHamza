@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  I turn machine learning experiments into small, focused tools: deep learning, computer vision, retrieval and recommender systems.<br>
+  I turn machine learning experiments into focused, measured work: neural video compression, anomaly detection, retrieval and computer vision.<br>
   Open to internships, junior ML roles and collaborations.
 </p>
 
@@ -23,7 +23,21 @@
 <table>
   <tr>
     <td colspan="2" valign="top">
-      <h3><a href="https://github.com/wHamza/ing-hubs-datathon">ING Hubs Türkiye Datathon</a> &nbsp;<img alt="21st in Türkiye" src="https://img.shields.io/badge/21st%20in%20T%C3%BCrkiye-FACC15?style=flat-square&labelColor=111827"></h3>
+      <h3><a href="https://github.com/wHamza/commaOwnTry">comma Video Compression Challenge</a> &nbsp;<img alt="score 0.240" src="https://img.shields.io/badge/score-0.240-22C55E?style=flat-square&labelColor=111827"></h3>
+      My own HNeRV-style implicit decoder (~243K params) trained with 7-bit quantization-aware training, an entropy penalty and task losses through frozen SegNet/PoseNet evaluators. Score 0.33 &rarr; 0.240. Reproduced the public #128 submission exactly and showed why cheap post-hoc fixes cannot pay for their bytes. Full research log, negative results included.<br><br>
+      <img alt="" src="https://img.shields.io/badge/Video%20Compression-8B5CF6?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Implicit%20Neural%20Representation-0EA5E9?style=flat-square"> <img alt="" src="https://img.shields.io/badge/QAT-F97316?style=flat-square"> <img alt="" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3><a href="https://github.com/wHamza/cattle-anomaly-mmcows">Cattle Behaviour Anomaly Detection</a> &nbsp;<img alt="84% detection" src="https://img.shields.io/badge/84%25%20detection-~1%20alarm%2Fcow%2Fweek-22C55E?style=flat-square&labelColor=111827"></h3>
+      Label-free detection of lethargy-like behaviour in dairy cows from hourly wearable-sensor data (MMCOWS). Herd-relative robust z-scores, an alarm budget instead of an arbitrary threshold, and evaluation through a physiological proxy plus synthetic drills.<br><br>
+      <img alt="" src="https://img.shields.io/badge/Anomaly%20Detection-EF4444?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Time%20Series-0EA5E9?style=flat-square"> <img alt="" src="https://img.shields.io/badge/IoT%20Sensors-14B8A6?style=flat-square">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>ING Hubs Türkiye Datathon &nbsp;<img alt="21st in Türkiye" src="https://img.shields.io/badge/21st%20in%20T%C3%BCrkiye-FACC15?style=flat-square&labelColor=111827"></h3>
       Customer churn prediction on a heavily imbalanced dataset (about 95% / 5%). Individual entry, ensemble model, October 2025.<br><br>
       <img alt="" src="https://img.shields.io/badge/Churn%20Prediction-22C55E?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Ensemble-8B5CF6?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Imbalanced%20Data-EF4444?style=flat-square">
     </td>
@@ -70,9 +84,9 @@
 
 ## Currently exploring
 
-- Neural-network-based video compression and evaluator-aware representations
-- Post-training of open language models
-- Graph neural networks for recommendation and routing
+- Neural video compression: implicit decoders, quantization-aware training, distillation
+- Post-training of open language models (Gemma 4)
+- Edge ML for livestock monitoring with low-power sensors
 
 <p align="center">
   <a href="https://github.com/wHamza?tab=repositories"><img alt="All repositories" src="https://img.shields.io/badge/All%20repositories-111827?style=for-the-badge&logo=github&logoColor=white"></a>
