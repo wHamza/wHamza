@@ -53,6 +53,10 @@
     <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="1.6"/>
     </filter>
+    <clipPath id="midDunes">
+      <path d="M0 356 C160 326 300 300 452 276 C560 300 650 330 760 356 C900 372 1100 366 1280 344 L1280 440 L0 440 Z"/>
+      <path d="M760 356 C900 318 1030 300 1150 290 C1200 304 1245 322 1280 334 L1280 440 L700 440 Z"/>
+    </clipPath>
     <clipPath id="frame"><rect width="1280" height="440" rx="18"/></clipPath>
     <style>
       .name { font: 300 62px "Helvetica Neue", "Segoe UI", Arial, sans-serif; letter-spacing: 15px; fill: #fff3dc; }
@@ -67,6 +71,13 @@
       .pulse { animation: breathe 7s ease-in-out infinite; transform-origin: 955px 262px; }
       .rise { animation: in 1.6s ease-out both; }
       .r2 { animation-delay: .35s; } .r3 { animation-delay: .7s; }
+      .contour { fill: none; stroke: #ffdca6; stroke-width: 1; }
+      .trail { fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 1; animation: descend 12s ease-in-out infinite; }
+      .step { fill: #fff1c9; animation: step 12s ease-in-out infinite; }
+      .minimum { animation: found 12s ease-in-out infinite; transform-origin: 800px 392px; }
+      @keyframes descend { 0% { stroke-dashoffset: 1; opacity: 1 } 55%,88% { stroke-dashoffset: 0; opacity: 1 } 100% { stroke-dashoffset: 0; opacity: 0 } }
+      @keyframes step { 0%,100% { opacity: 0 } 55%,88% { opacity: .95 } }
+      @keyframes found { 0%,50%,100% { opacity: 0; transform: scale(.4) } 62% { opacity: 1; transform: scale(1.25) } 74%,88% { opacity: .9; transform: scale(1) } }
       @keyframes tw { 0%,100% { opacity: .25 } 50% { opacity: .95 } }
       @keyframes drift { from { stroke-dashoffset: 610 } to { stroke-dashoffset: 0 } }
       @keyframes blow { from { transform: translate(-80px, 6px); opacity: 0 } 15% { opacity: .8 } 85% { opacity: .6 } to { transform: translate(1400px, -26px); opacity: 0 } }
@@ -103,9 +114,21 @@
       <ellipse cx="452" cy="268.5" rx="1.9" ry="6"/><circle cx="452" cy="260.6" r="1.9"/>
     </g>
 
+    <g clip-path="url(#midDunes)"><ellipse class="contour" cx="800" cy="392" rx="34" ry="6.8" opacity="0.5"/><ellipse class="contour" cx="800" cy="392" rx="78" ry="15.6" opacity="0.42"/><ellipse class="contour" cx="800" cy="392" rx="130" ry="26.0" opacity="0.36"/><ellipse class="contour" cx="800" cy="392" rx="190" ry="38.0" opacity="0.3"/><ellipse class="contour" cx="800" cy="392" rx="258" ry="51.6" opacity="0.25"/><ellipse class="contour" cx="800" cy="392" rx="334" ry="66.8" opacity="0.2"/><ellipse class="contour" cx="800" cy="392" rx="418" ry="83.6" opacity="0.16"/><ellipse class="contour" cx="800" cy="392" rx="510" ry="102.0" opacity="0.12"/></g>
+
     <path d="M0 440 L0 392 C130 372 250 350 356 330 C470 362 600 398 760 418 C930 432 1110 428 1280 404 L1280 440 Z" fill="url(#nearDark)"/>
     <path d="M356 330 C470 362 600 398 760 418 C600 432 420 438 250 440 C300 400 334 364 356 330 Z" fill="url(#nearLit)" opacity="0.95"/>
     <path d="M0 392 C130 372 250 350 356 330 C470 362 600 398 760 418" fill="none" stroke="#ffc27a" stroke-width="1.4" opacity="0.85"/>
+
+    <g>
+      <path class="trail" pathLength="1" d="M452 277 L516 300 L566 326 L634 338 L684 362 L732 370 L772 387 L800 392" stroke="#ffb74d" stroke-width="7" opacity="0.5" filter="url(#soft)"/>
+      <path class="trail" pathLength="1" d="M452 277 L516 300 L566 326 L634 338 L684 362 L732 370 L772 387 L800 392" stroke="#fff3d6" stroke-width="2"/>
+      <circle class="step" cx="516" cy="300" r="2.6"/><circle class="step" cx="566" cy="326" r="2.6"/><circle class="step" cx="634" cy="338" r="2.6"/><circle class="step" cx="684" cy="362" r="2.6"/><circle class="step" cx="732" cy="370" r="2.6"/><circle class="step" cx="772" cy="387" r="2.6"/>
+      <g class="minimum">
+        <circle cx="800" cy="392" r="22" fill="url(#glow)"/>
+        <path d="M800 379 L803 389 L813 392 L803 395 L800 405 L797 395 L787 392 L797 389 Z" fill="#fff6dc"/>
+      </g>
+    </g>
 
     <path class="wind" stroke-width="1.2" opacity="0.55" d="M-40 318 C240 296 520 330 800 304 S1180 292 1340 306"/>
     <path class="wind w2" stroke-width="0.9" opacity="0.4" d="M-40 368 C260 348 540 388 840 360 S1200 348 1340 362"/>
