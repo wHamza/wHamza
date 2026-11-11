@@ -1,93 +1,110 @@
 <p align="center">
-  <img src="assets/banner-lantern-ml.png" alt="Hamza Demir - ML Engineer" width="100%">
+  <img src="assets/banner-desert.svg" alt="Hamza Demir - Machine Learning Engineer" width="100%">
 </p>
 
 <p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
-  <img alt="PyTorch Geometric" src="https://img.shields.io/badge/PyG-3C2179?style=for-the-badge">
-  <img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">
-  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white">
-  <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
+  I turn machine learning experiments into focused, measured work:<br>
+  neural video compression, anomaly detection on sensor data, and models that run at the edge.<br>
+  <b>Open to internships, junior ML roles and collaborations.</b>
 </p>
 
 <p align="center">
-  I turn machine learning experiments into focused, measured work: neural video compression, anomaly detection, retrieval and computer vision.<br>
-  Open to internships, junior ML roles and collaborations.
+  <img alt="Python" src="https://img.shields.io/badge/Python-1c0f0a?style=for-the-badge&logo=python&logoColor=f3b56b">
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-1c0f0a?style=for-the-badge&logo=pytorch&logoColor=f3b56b">
+  <img alt="PyTorch Geometric" src="https://img.shields.io/badge/PyG-1c0f0a?style=for-the-badge&logo=pyg&logoColor=f3b56b">
+  <img alt="Weights and Biases" src="https://img.shields.io/badge/W%26B-1c0f0a?style=for-the-badge&logo=weightsandbiases&logoColor=f3b56b">
+  <img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-1c0f0a?style=for-the-badge&logo=opencv&logoColor=f3b56b">
+  <img alt="Go" src="https://img.shields.io/badge/Go-1c0f0a?style=for-the-badge&logo=go&logoColor=f3b56b">
+  <img alt="C" src="https://img.shields.io/badge/C%20%2F%20ESP--IDF-1c0f0a?style=for-the-badge&logo=espressif&logoColor=f3b56b">
 </p>
 
-<img src="assets/divider-neon.svg" width="100%" height="6" alt="">
+<img src="assets/divider-sand.svg" width="100%" height="14" alt="">
 
-## Selected work
+## Latest work
 
 <table>
   <tr>
     <td colspan="2" valign="top">
-      <h3><a href="https://github.com/wHamza/commaOwnTry">comma Video Compression Challenge</a> &nbsp;<img alt="score 0.240" src="https://img.shields.io/badge/score-0.240-22C55E?style=flat-square&labelColor=111827"></h3>
-      My own HNeRV-style implicit decoder (~243K params) trained with 7-bit quantization-aware training, an entropy penalty and task losses through frozen SegNet/PoseNet evaluators. Score 0.33 &rarr; 0.240. Reproduced the public #128 submission exactly and showed why cheap post-hoc fixes cannot pay for their bytes. Full research log, negative results included.<br><br>
-      <img alt="" src="https://img.shields.io/badge/Video%20Compression-8B5CF6?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Implicit%20Neural%20Representation-0EA5E9?style=flat-square"> <img alt="" src="https://img.shields.io/badge/QAT-F97316?style=flat-square"> <img alt="" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">
+      <h3><a href="https://github.com/wHamza/modelParamControl">modelParamControl</a> &nbsp;<img alt="bit-identical reruns" src="https://img.shields.io/badge/reruns-bit--identical-f3b56b?style=flat-square&labelColor=1c0f0a"> <img alt="Nov 2026" src="https://img.shields.io/badge/Nov%202026-c2562a?style=flat-square"></h3>
+      Experiment tracking and reproducibility study around a small CNN on CIFAR-10. Every run logs its config, seed, git commit, torch version and GPU to W&amp;B, and the same commit + config + seed reproduces the result exactly. A 5-seed run sets the noise floor (0.745 – 0.752 test accuracy); a 20-run random sweep then shows learning rate matters, weight decay does not, and no config beats the baseline beyond that noise.<br><br>
+      <img alt="" src="https://img.shields.io/badge/Reproducibility-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/W%26B%20Sweeps-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Multi--seed%20evaluation-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/PyTorch-7c3219?style=flat-square">
     </td>
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <h3><a href="https://github.com/wHamza/cattle-anomaly-mmcows">Cattle Behaviour Anomaly Detection</a> &nbsp;<img alt="84% detection" src="https://img.shields.io/badge/84%25%20detection-~1%20alarm%2Fcow%2Fweek-22C55E?style=flat-square&labelColor=111827"></h3>
-      Label-free detection of lethargy-like behaviour in dairy cows from hourly wearable-sensor data (MMCOWS). Herd-relative robust z-scores, an alarm budget instead of an arbitrary threshold, and evaluation through a physiological proxy plus synthetic drills.<br><br>
-      <img alt="" src="https://img.shields.io/badge/Anomaly%20Detection-EF4444?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Time%20Series-0EA5E9?style=flat-square"> <img alt="" src="https://img.shields.io/badge/IoT%20Sensors-14B8A6?style=flat-square">
+      <h3><a href="https://github.com/wHamza/commaOwnTry">comma Video Compression Challenge</a> &nbsp;<img alt="score 0.33 to 0.240" src="https://img.shields.io/badge/score-0.33%20%E2%86%92%200.240-f3b56b?style=flat-square&labelColor=1c0f0a"> <img alt="Oct 2026" src="https://img.shields.io/badge/Oct%202026-c2562a?style=flat-square"></h3>
+      My own HNeRV-style implicit decoder (~243K params) trained with 7-bit quantization-aware training, an entropy penalty and task losses through frozen SegNet / PoseNet evaluators. Reproduced the public #128 submission exactly (0.18796) and showed why cheap post-hoc fixes cannot pay for their bytes. Full research log, negative results included.<br><br>
+      <img alt="" src="https://img.shields.io/badge/Video%20Compression-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Implicit%20Neural%20Representation-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/QAT-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/PyTorch-7c3219?style=flat-square">
     </td>
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <h3>ING Hubs Türkiye Datathon &nbsp;<img alt="21st in Türkiye" src="https://img.shields.io/badge/21st%20in%20T%C3%BCrkiye-FACC15?style=flat-square&labelColor=111827"></h3>
+      <h3><a href="https://github.com/wHamza/cattle-anomaly-mmcows">Cattle Behaviour Anomaly Detection</a> &nbsp;<img alt="84% detection at about 1 alarm per cow per week" src="https://img.shields.io/badge/84%25%20detection-~1%20alarm%2Fcow%2Fweek-f3b56b?style=flat-square&labelColor=1c0f0a"> <img alt="Oct 2026" src="https://img.shields.io/badge/Oct%202026-c2562a?style=flat-square"></h3>
+      Label-free detection of lethargy-like behaviour in dairy cows from hourly wearable-sensor data (MMCOWS), the same cadence a LoRaWAN collar reports at. Herd-relative robust z-scores, an alarm budget instead of an arbitrary threshold, and evaluation through a physiological proxy plus synthetic drills.<br><br>
+      <img alt="" src="https://img.shields.io/badge/Anomaly%20Detection-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Time%20Series-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/IoT%20Sensors-7c3219?style=flat-square">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>ING Hubs Türkiye Datathon &nbsp;<img alt="21st in Türkiye" src="https://img.shields.io/badge/21st%20in%20T%C3%BCrkiye-f3b56b?style=flat-square&labelColor=1c0f0a"></h3>
       Customer churn prediction on a heavily imbalanced dataset (about 95% / 5%). Individual entry, ensemble model, October 2025.<br><br>
-      <img alt="" src="https://img.shields.io/badge/Churn%20Prediction-22C55E?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Ensemble-8B5CF6?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Imbalanced%20Data-EF4444?style=flat-square">
+      <img alt="" src="https://img.shields.io/badge/Churn%20Prediction-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Ensemble-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Imbalanced%20Data-7c3219?style=flat-square">
     </td>
   </tr>
+</table>
+
+<img src="assets/divider-sand.svg" width="100%" height="14" alt="">
+
+## More projects
+
+<table>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/wHamza/readbuddy-rag">ReadBuddy RAG</a></h3>
       Spoiler-safe reading companion: hybrid retrieval over a book that only uses what you have already read.<br><br>
-      <img alt="" src="https://img.shields.io/badge/RAG-8B5CF6?style=flat-square"> <img alt="" src="https://img.shields.io/badge/ChromaDB-F97316?style=flat-square"> <img alt="" src="https://img.shields.io/badge/NLP-0EA5E9?style=flat-square">
+      <img alt="" src="https://img.shields.io/badge/RAG-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/ChromaDB-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/NLP-7c3219?style=flat-square">
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/wHamza/routeOptimGNN">Route Optim GNN</a></h3>
       Vehicle routing with graph attention and reinforcement learning, with benchmark scripts and route plots.<br><br>
-      <img alt="" src="https://img.shields.io/badge/GNN-8B5CF6?style=flat-square"> <img alt="" src="https://img.shields.io/badge/RL-EC4899?style=flat-square"> <img alt="" src="https://img.shields.io/badge/PyTorch%20Geometric-3C2179?style=flat-square">
+      <img alt="" src="https://img.shields.io/badge/GNN-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/RL-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/PyTorch%20Geometric-7c3219?style=flat-square">
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/wHamza/gnn-steam-2021-turkish">Steam Game Recommender</a></h3>
       Heterogeneous GNN on Turkish Steam reviews; users and games are nodes, recommendation is link prediction.<br><br>
-      <img alt="" src="https://img.shields.io/badge/RecSys-22C55E?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Hetero%20GNN-8B5CF6?style=flat-square">
+      <img alt="" src="https://img.shields.io/badge/RecSys-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Hetero%20GNN-7c3219?style=flat-square">
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/wHamza/line-recog">Underwater Route Recognition</a></h3>
       YOLO-based line detection with vehicle-control experiments over PyMAVLink.<br><br>
-      <img alt="" src="https://img.shields.io/badge/YOLO-F59E0B?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Robotics-0EA5E9?style=flat-square">
+      <img alt="" src="https://img.shields.io/badge/YOLO-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Robotics-7c3219?style=flat-square">
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/wHamza/Voice-control-with-hand">Hand-Controlled Volume</a></h3>
       Touch-free Windows volume control with MediaPipe hand landmarks.<br><br>
-      <img alt="" src="https://img.shields.io/badge/MediaPipe-14B8A6?style=flat-square"> <img alt="" src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square">
+      <img alt="" src="https://img.shields.io/badge/MediaPipe-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/OpenCV-7c3219?style=flat-square">
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/wHamza/TensorTonic-Solutions">TensorTonic Solutions</a></h3>
       ML fundamentals implemented from scratch with NumPy: losses, activations, closed-form regression.<br><br>
-      <img alt="" src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"> <img alt="" src="https://img.shields.io/badge/Fundamentals-EF4444?style=flat-square">
+      <img alt="" src="https://img.shields.io/badge/NumPy-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Fundamentals-7c3219?style=flat-square">
     </td>
   </tr>
 </table>
 
-<img src="assets/divider-neon.svg" width="100%" height="6" alt="">
+<img src="assets/divider-sand.svg" width="100%" height="14" alt="">
 
-## Currently exploring
+## On the workbench
 
-- Neural video compression: implicit decoders, quantization-aware training, distillation
-- Post-training of open language models (Gemma 4)
-- Edge ML for livestock monitoring with low-power sensors
+- **Edge herd monitoring** &mdash; LoRaWAN neck collars, a Raspberry Pi gateway and an on-farm server that keeps working with no internet; anomaly detection first, estrus detection next.
+- **Neural video compression** &mdash; distilling a stronger HNeRV model into my own decoder, aiming below 0.2.
+- **Post-training open language models** (Gemma 4).
+- **MLOps habits** &mdash; experiment tracking, sweeps, multi-seed comparisons, small deployed demos.
 
 <p align="center">
-  <a href="https://github.com/wHamza?tab=repositories"><img alt="All repositories" src="https://img.shields.io/badge/All%20repositories-111827?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://github.com/wHamza?tab=repositories"><img alt="All repositories" src="https://img.shields.io/badge/All%20repositories-1c0f0a?style=for-the-badge&logo=github&logoColor=f3b56b"></a>
 </p>
