@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  I turn machine learning experiments into focused, measured work:<br>
-  neural video compression, anomaly detection on sensor data, and models that run at the edge.<br>
+  Machine learning, deep learning and data science, done as focused and measured work:<br>
+  clear baselines, honest evaluation, results you can reproduce.<br>
   <b>Open to internships, junior ML roles and collaborations.</b>
 </p>
 
