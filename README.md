@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/city-sunset.jpg" alt="Hamza Demir - Machine Learning Engineer" width="100%">
+  <img src="assets/banner-city.svg" alt="Hamza Demir - Machine Learning Engineer" width="100%">
 </p>
 
 <p align="center">
