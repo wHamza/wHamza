@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner-desert.svg" alt="Hamza Demir - Machine Learning Engineer" width="100%">
+  <img src="assets/banner-golden.svg" alt="Hamza Demir - Machine Learning Engineer" width="100%">
 </p>
 
 <p align="center">
@@ -25,21 +25,21 @@
 <table>
   <tr>
     <td colspan="2" valign="top">
-      <h3><a href="https://github.com/wHamza/modelParamControl">modelParamControl</a> &nbsp;<img alt="bit-identical reruns" src="https://img.shields.io/badge/reruns-bit--identical-f3b56b?style=flat-square&labelColor=1c0f0a"> <img alt="Nov 2026" src="https://img.shields.io/badge/Nov%202026-c2562a?style=flat-square"></h3>
+      <h3><a href="https://github.com/wHamza/modelParamControl">modelParamControl</a> &nbsp;<img alt="bit-identical reruns" src="https://img.shields.io/badge/reruns-bit--identical-f3b56b?style=flat-square&labelColor=1c0f0a"> <img alt="Nov 2026" src="https://img.shields.io/badge/Nov%202026-3c6e86?style=flat-square"></h3>
       Experiment tracking and reproducibility study around a small CNN on CIFAR-10. Every run logs its config, seed, git commit, torch version and GPU to W&amp;B, and the same commit + config + seed reproduces the result exactly. A 5-seed run sets the noise floor (0.745 – 0.752 test accuracy); a 20-run random sweep then shows learning rate matters, weight decay does not, and no config beats the baseline beyond that noise.<br><br>
       <img alt="" src="https://img.shields.io/badge/Reproducibility-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/W%26B%20Sweeps-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Multi--seed%20evaluation-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/PyTorch-7c3219?style=flat-square">
     </td>
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <h3><a href="https://github.com/wHamza/commaOwnTry">comma Video Compression Challenge</a> &nbsp;<img alt="score 0.33 to 0.240" src="https://img.shields.io/badge/score-0.33%20%E2%86%92%200.240-f3b56b?style=flat-square&labelColor=1c0f0a"> <img alt="Oct 2026" src="https://img.shields.io/badge/Oct%202026-c2562a?style=flat-square"></h3>
+      <h3><a href="https://github.com/wHamza/commaOwnTry">comma Video Compression Challenge</a> &nbsp;<img alt="score 0.33 to 0.240" src="https://img.shields.io/badge/score-0.33%20%E2%86%92%200.240-f3b56b?style=flat-square&labelColor=1c0f0a"> <img alt="Oct 2026" src="https://img.shields.io/badge/Oct%202026-3c6e86?style=flat-square"></h3>
       My own HNeRV-style implicit decoder (~243K params) trained with 7-bit quantization-aware training, an entropy penalty and task losses through frozen SegNet / PoseNet evaluators. Reproduced the public #128 submission exactly (0.18796) and showed why cheap post-hoc fixes cannot pay for their bytes. Full research log, negative results included.<br><br>
       <img alt="" src="https://img.shields.io/badge/Video%20Compression-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Implicit%20Neural%20Representation-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/QAT-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/PyTorch-7c3219?style=flat-square">
     </td>
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <h3><a href="https://github.com/wHamza/cattle-anomaly-mmcows">Cattle Behaviour Anomaly Detection</a> &nbsp;<img alt="84% detection at about 1 alarm per cow per week" src="https://img.shields.io/badge/84%25%20detection-~1%20alarm%2Fcow%2Fweek-f3b56b?style=flat-square&labelColor=1c0f0a"> <img alt="Oct 2026" src="https://img.shields.io/badge/Oct%202026-c2562a?style=flat-square"></h3>
+      <h3><a href="https://github.com/wHamza/cattle-anomaly-mmcows">Cattle Behaviour Anomaly Detection</a> &nbsp;<img alt="84% detection at about 1 alarm per cow per week" src="https://img.shields.io/badge/84%25%20detection-~1%20alarm%2Fcow%2Fweek-f3b56b?style=flat-square&labelColor=1c0f0a"> <img alt="Oct 2026" src="https://img.shields.io/badge/Oct%202026-3c6e86?style=flat-square"></h3>
       Label-free detection of lethargy-like behaviour in dairy cows from hourly wearable-sensor data (MMCOWS), the same cadence a LoRaWAN collar reports at. Herd-relative robust z-scores, an alarm budget instead of an arbitrary threshold, and evaluation through a physiological proxy plus synthetic drills.<br><br>
       <img alt="" src="https://img.shields.io/badge/Anomaly%20Detection-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/Time%20Series-7c3219?style=flat-square"> <img alt="" src="https://img.shields.io/badge/IoT%20Sensors-7c3219?style=flat-square">
     </td>
