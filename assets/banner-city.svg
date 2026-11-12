@@ -2,15 +2,15 @@
   <defs>
     <clipPath id="frame"><rect width="1280" height="600" rx="14"/></clipPath>
     <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0.45" stop-color="#1d0d14" stop-opacity="0"/><stop offset="0.72" stop-color="#1d0d14" stop-opacity="0.62"/><stop offset="1" stop-color="#1d0d14" stop-opacity="0.9"/>
+      <stop offset="0.45" stop-color="#0a1230" stop-opacity="0"/><stop offset="0.72" stop-color="#0a1230" stop-opacity="0.62"/><stop offset="1" stop-color="#0a1230" stop-opacity="0.9"/>
     </linearGradient>
     <linearGradient id="side" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1d0d14" stop-opacity="0.45"/><stop offset="0.6" stop-color="#1d0d14" stop-opacity="0"/>
+      <stop offset="0" stop-color="#0a1230" stop-opacity="0.45"/><stop offset="0.6" stop-color="#0a1230" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffcf6b"/><stop offset="1" stop-color="#ffcf6b" stop-opacity="0"/></linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e23636"/><stop offset="0.5" stop-color="#ffffff"/><stop offset="1" stop-color="#3b6fe0"/></linearGradient>
     <style>
-      .name { font: 700 52px "Helvetica Neue", "Segoe UI", Arial, sans-serif; letter-spacing: 3px; fill: #fff6df; }
-      .tag  { font: 500 16px "Helvetica Neue", "Segoe UI", Arial, sans-serif; letter-spacing: .6px; fill: #fbe9c8; }
+      .name { font: 700 52px "Helvetica Neue", "Segoe UI", Arial, sans-serif; letter-spacing: 3px; fill: #ffffff; }
+      .tag  { font: 500 16px "Helvetica Neue", "Segoe UI", Arial, sans-serif; letter-spacing: .6px; fill: #e6ecfa; }
       .rise { animation: in 1.5s ease-out both; } .r2 { animation-delay: .3s; }
       @keyframes in { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
       @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
@@ -21,7 +21,7 @@
     <rect width="1280" height="600" fill="url(#floor)"/>
     <rect width="1280" height="600" fill="url(#side)"/>
     <text class="name rise" x="64" y="528">Hamza Demir</text>
-    <rect class="rise r2" x="66" y="544" width="320" height="2" fill="url(#rule)"/>
+    <rect class="rise r2" x="66" y="544" width="320" height="3" fill="url(#rule)"/>
     <text class="tag rise r2" x="66" y="572">Machine Learning · Deep Learning · Data Science · Computer Vision</text>
   </g>
 </svg>
